@@ -1,0 +1,65 @@
+
+
+
+[class*="all"]{
+    background-color: rgb(11, 155, 252);
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    h1{
+      text-align: center;
+      font-size: xx-large;
+      margin-top: 10%;
+    }
+
+    .main{
+        background-color:  rgb(6, 134, 219);
+        width: auto;
+        padding:7%;
+        margin-top: 1%;
+        margin-bottom: 15%;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+    }
+    
+
+    [type$="text"] {
+        width: 50%;
+
+    }
+
+    #name{
+        width: 300px;
+        height: 40px;
+        border-radius: 25px;
+    }
+
+    #em{
+        width: 300px;
+        height: 40px;
+        border-radius: 25px;
+    }
+
+    #wans {
+        margin-left: 80px;
+        text-decoration: none;
+        color: blue;
+    }
+
+    #bla {
+        text-decoration: none;
+        color: black;
+
+    }
+
+    button{
+        width: 300px;
+        height: 40px;
+        border-radius: 25px;
+        background-color: rgb(21, 119, 175);
+    }
+
+}
